@@ -19,7 +19,7 @@ while True:
 
         por_ir = (valor_bruto*15)/100
         valor_ir = valor_bruto - por_ir
-        por_b3 = (valor_bruto*0.75)/100
+        por_b3 = (valor_bruto*1.5)/100
 
         valor_liquido = valor_ir - por_b3
 
@@ -48,10 +48,9 @@ while True:
 
         por_ir = (valor_bruto*15)/100
         valor_ir = valor_bruto - por_ir
-        por_b3 = (valor_bruto*1)/100
+        por_b3 = (valor_bruto*2.5)/100
 
         valor_liquido = valor_ir - por_b3
-
 
         print("-------------------------------")
         print("   RESULTADO DA SIMULAÇÃO      ")
