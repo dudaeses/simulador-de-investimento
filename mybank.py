@@ -36,10 +36,6 @@ while True:
         print("-------------------------------")
         opcao = str(input("Deseja realizar outra simulação? s/n: "))
 
-        if opcao == 'n':
-            break
-        print("Programa encerrado")
-
     else:
         valor_inicial = int(input("Qual valor você gostaria de investir agora?: "))
         valor_mensal = int(input("Qual valor você poderá investir mensalmente?: "))
@@ -65,6 +61,7 @@ while True:
         print("-------------------------------")
         opcao = str(input("Deseja realizar outra simulação? s/n: "))
 
-        if opcao == 'n':
+          if opcao == 'n':
             break
-        print("Programa encerrado")
+
+print("Programa encerrado")
