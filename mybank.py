@@ -61,7 +61,7 @@ while True:
         print("-------------------------------")
         opcao = str(input("Deseja realizar outra simulação? s/n: "))
 
-          if opcao == 'n':
+        if opcao == 'n':
             break
 
 print("Programa encerrado")
