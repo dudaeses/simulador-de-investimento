@@ -15,13 +15,13 @@ while True:
         valor_inicial = int(input("Qual valor você gostaria de investir agora?: "))
         valor_mensal = int(input("Qual valor você poderá investir mensalmente?: "))
 
-        valor_bruto = (valor_mensal*32) + valor_inicial
-
-        por_ir = (valor_bruto*15)/100
+        alor_bruto = (valor_mensal * 32) + valor_inicial
+        por_ir = (valor_bruto * 15)/100
         valor_ir = valor_bruto - por_ir
-        por_b3 = (valor_bruto*1.5)/100
+        por_b3 = (valor_bruto * 1.5)/100
+        valor_lucro = valor_bruto + (valor_bruto * 0.1081)
 
-        valor_liquido = valor_ir - por_b3
+        valor_liquido = (valor_ir - por_b3) + valor_lucro
 
         print("-------------------------------")
         print("   RESULTADO DA SIMULAÇÃO      ")
@@ -40,14 +40,14 @@ while True:
         valor_inicial = int(input("Qual valor você gostaria de investir agora?: "))
         valor_mensal = int(input("Qual valor você poderá investir mensalmente?: "))
 
-        valor_bruto = (valor_mensal*50) + valor_inicial
-
-        por_ir = (valor_bruto*15)/100
+        valor_bruto = (valor_mensal * 50) + valor_inicial
+        por_ir = (valor_bruto * 15)/100
         valor_ir = valor_bruto - por_ir
-        por_b3 = (valor_bruto*2.5)/100
+        por_b3 = (valor_bruto * 2.5)/100
+        valor_lucro = valor_bruto + (valor_bruto * 0.1081)
 
-        valor_liquido = valor_ir - por_b3
-
+        valor_liquido = (valor_ir - por_b3) + valor_lucro
+        
         print("-------------------------------")
         print("   RESULTADO DA SIMULAÇÃO      ")
         print("-------------------------------")
