@@ -15,7 +15,7 @@ while True:
         valor_inicial = int(input("Qual valor você gostaria de investir agora?: "))
         valor_mensal = int(input("Qual valor você poderá investir mensalmente?: "))
 
-        alor_bruto = (valor_mensal * 32) + valor_inicial
+        valor_bruto = (valor_mensal * 32) + valor_inicial
         por_ir = (valor_bruto * 15)/100
         valor_ir = valor_bruto - por_ir
         por_b3 = (valor_bruto * 1.5)/100
