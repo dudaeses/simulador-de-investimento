@@ -21,7 +21,7 @@ while True:
         por_b3 = (valor_bruto * 1.5)/100
         valor_lucro = valor_bruto + (valor_bruto * 0.1081)
 
-        valor_liquido = (valor_ir - por_b3) + valor_lucro
+        valor_liquido = valor_lucro - (valor_ir + por_b3)
 
         print("-------------------------------")
         print("   RESULTADO DA SIMULAÇÃO      ")
@@ -46,7 +46,7 @@ while True:
         por_b3 = (valor_bruto * 2.5)/100
         valor_lucro = valor_bruto + (valor_bruto * 0.1081)
 
-        valor_liquido = (valor_ir - por_b3) + valor_lucro
+        valor_liquido = valor_lucro - (valor_ir + por_b3)
         
         print("-------------------------------")
         print("   RESULTADO DA SIMULAÇÃO      ")
